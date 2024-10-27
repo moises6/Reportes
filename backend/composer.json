@@ -1,0 +1,19 @@
+{
+    "name": "moise/reportes",
+    "description": "Reportes PHP",
+    "autoload": {
+        "psr-4": {
+            "Moise\\Reportes\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Moises"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "mpdf/mpdf": "^6.1",
+        "phpoffice/phpspreadsheet": "dev-master"
+    }
+}
